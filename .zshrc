@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/aclement/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -9,10 +9,6 @@ ZSH_THEME="pygmalion"
 
 # Include Z
 . ~/z.sh
-
-export MANDRILL_API_KEY="C3tATCGRxMKJ6Deco7vitQ"
-export RMFU_FROM_EMAIL="someone@mail.org"
-
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

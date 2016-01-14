@@ -1,0 +1,23 @@
+[user]
+	name = Alex Clement
+	email = aclement@kentdenver.org
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	g = grep --break --heading --line-number
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[push]
+	default = simple
+[grep]
+	lineNumber = true
+[core]
+    # editor = /usr/local/bin/vim
