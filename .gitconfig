@@ -20,4 +20,6 @@
 [grep]
 	lineNumber = true
 [core]
-    # editor = /usr/local/bin/vim
+	editor = /usr/local/bin/vim
+[help]
+    autocorrect = 1

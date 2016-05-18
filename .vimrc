@@ -15,4 +15,3 @@ colorscheme solarized
 syntax on
 filetype plugin indent on
 
-map <c-f> :call JsBeautify()<cr>
