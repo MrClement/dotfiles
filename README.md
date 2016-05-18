@@ -1,3 +1,3 @@
 # dotfiles
 
-Dotfiles for vim, zsh, and github
+Dotfiles for vim, zsh, and git

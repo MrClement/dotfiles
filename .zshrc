@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
-
+export TERM=xterm-256color
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -8,7 +8,7 @@ export ZSH=~/.oh-my-zsh
 ZSH_THEME="pygmalion"
 
 # Include Z
-. ~/z.sh
+. ~/z/z.sh
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,8 +86,6 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 # Example aliases
-alias sftp="with-readline sftp"
-alias vim="/usr/local/bin/vim"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/usr/local/bin:$PATH"
+#export PATH="/usr/local/bin:$PATH"
