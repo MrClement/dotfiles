@@ -52,7 +52,7 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew django extract osx z python history vi-mode git-flow vagrant history-substring-search)
+plugins=(git extract z python history vi-mode git-flow history-substring-search)
 
 # User configuration
 
